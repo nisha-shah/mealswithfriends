@@ -12,7 +12,7 @@
 
 @interface UserSignInViewController()
 @property(strong,nonatomic)InterestsTableViewController * interestTableVC;
-@property(strong,nonatomic)BrowseOpportunityTableViewController * browseTableVC;
+@property(strong,nonatomic)MealListTableViewController * browseTableVC;
 @property (strong, nonatomic) IBOutlet UITextField *txtUserName;
 @property (strong, nonatomic) IBOutlet UITextField *txtPassword;
 @property (strong, nonatomic) IBOutlet UITextField *txtEmail;
@@ -160,7 +160,7 @@
                 //set the signed in status of user in appDelegate.
                 AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
                 appDelegate.userLogInStatus=YES;
-                self.browseTableVC=[[BrowseOpportunityTableViewController alloc]initWithNibName:@"BrowseOpportunityTableViewController" bundle:nil];
+                self.browseTableVC=[[MealListTableViewController alloc]initWithNibName:@"MealListTableViewController" bundle:nil];
                 [self.navigationController pushViewController:self.browseTableVC animated:YES];
             }else{
              //   NSLog(@"Incorrect login");

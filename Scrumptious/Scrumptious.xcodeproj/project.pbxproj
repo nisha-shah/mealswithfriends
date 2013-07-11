@@ -50,12 +50,12 @@
 		C7F77B921760FE2900A5060B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F77B911760FE2900A5060B /* Default.png */; };
 		C7F77B941760FE2900A5060B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F77B931760FE2900A5060B /* Default@2x.png */; };
 		C7F77B961760FE2900A5060B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F77B951760FE2900A5060B /* Default-568h@2x.png */; };
-		C7F77B9F1760FE4700A5060B /* VolunteerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F77B9D1760FE4700A5060B /* VolunteerViewController.m */; };
-		C7F77BA01760FE4700A5060B /* VolunteerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F77B9E1760FE4700A5060B /* VolunteerViewController.xib */; };
-		C7F77BA41760FE7900A5060B /* BrowseOpportunityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F77BA21760FE7900A5060B /* BrowseOpportunityTableViewController.m */; };
-		C7F77BA51760FE7900A5060B /* BrowseOpportunityTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F77BA31760FE7900A5060B /* BrowseOpportunityTableViewController.xib */; };
-		C7F77BAE1760FEBC00A5060B /* DetailOpportunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F77BAC1760FEBC00A5060B /* DetailOpportunityViewController.m */; };
-		C7F77BAF1760FEBC00A5060B /* DetailOpportunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F77BAD1760FEBC00A5060B /* DetailOpportunityViewController.xib */; };
+		C7F77B9F1760FE4700A5060B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F77B9D1760FE4700A5060B /* MainViewController.m */; };
+		C7F77BA01760FE4700A5060B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F77B9E1760FE4700A5060B /* MainViewController.xib */; };
+		C7F77BA41760FE7900A5060B /* MealListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F77BA21760FE7900A5060B /* MealListTableViewController.m */; };
+		C7F77BA51760FE7900A5060B /* MealListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F77BA31760FE7900A5060B /* MealListTableViewController.xib */; };
+		C7F77BAE1760FEBC00A5060B /* DetailMealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F77BAC1760FEBC00A5060B /* DetailMealViewController.m */; };
+		C7F77BAF1760FEBC00A5060B /* DetailMealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F77BAD1760FEBC00A5060B /* DetailMealViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,15 +111,15 @@
 		C7F77B911760FE2900A5060B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C7F77B931760FE2900A5060B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C7F77B951760FE2900A5060B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C7F77B9C1760FE4700A5060B /* VolunteerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VolunteerViewController.h; path = ../VolunteerViewController.h; sourceTree = "<group>"; };
-		C7F77B9D1760FE4700A5060B /* VolunteerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VolunteerViewController.m; path = ../VolunteerViewController.m; sourceTree = "<group>"; };
-		C7F77B9E1760FE4700A5060B /* VolunteerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VolunteerViewController.xib; path = ../VolunteerViewController.xib; sourceTree = "<group>"; };
-		C7F77BA11760FE7900A5060B /* BrowseOpportunityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BrowseOpportunityTableViewController.h; path = ../BrowseOpportunityTableViewController.h; sourceTree = "<group>"; };
-		C7F77BA21760FE7900A5060B /* BrowseOpportunityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BrowseOpportunityTableViewController.m; path = ../BrowseOpportunityTableViewController.m; sourceTree = "<group>"; };
-		C7F77BA31760FE7900A5060B /* BrowseOpportunityTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BrowseOpportunityTableViewController.xib; path = ../BrowseOpportunityTableViewController.xib; sourceTree = "<group>"; };
-		C7F77BAB1760FEBC00A5060B /* DetailOpportunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailOpportunityViewController.h; path = ../DetailOpportunityViewController.h; sourceTree = "<group>"; };
-		C7F77BAC1760FEBC00A5060B /* DetailOpportunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailOpportunityViewController.m; path = ../DetailOpportunityViewController.m; sourceTree = "<group>"; };
-		C7F77BAD1760FEBC00A5060B /* DetailOpportunityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailOpportunityViewController.xib; path = ../DetailOpportunityViewController.xib; sourceTree = "<group>"; };
+		C7F77B9C1760FE4700A5060B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		C7F77B9D1760FE4700A5060B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		C7F77B9E1760FE4700A5060B /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
+		C7F77BA11760FE7900A5060B /* MealListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MealListTableViewController.h; path = ../MealListTableViewController.h; sourceTree = "<group>"; };
+		C7F77BA21760FE7900A5060B /* MealListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MealListTableViewController.m; path = ../MealListTableViewController.m; sourceTree = "<group>"; };
+		C7F77BA31760FE7900A5060B /* MealListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MealListTableViewController.xib; path = ../MealListTableViewController.xib; sourceTree = "<group>"; };
+		C7F77BAB1760FEBC00A5060B /* DetailMealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailMealViewController.h; path = ../DetailMealViewController.h; sourceTree = "<group>"; };
+		C7F77BAC1760FEBC00A5060B /* DetailMealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailMealViewController.m; path = ../DetailMealViewController.m; sourceTree = "<group>"; };
+		C7F77BAD1760FEBC00A5060B /* DetailMealViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailMealViewController.xib; path = ../DetailMealViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,15 +220,15 @@
 				C7F05272176F9D51001974A8 /* InterestsTableViewController.h */,
 				C7F05273176F9D51001974A8 /* InterestsTableViewController.m */,
 				C7F05274176F9D51001974A8 /* InterestsTableViewController.xib */,
-				C7F77BAB1760FEBC00A5060B /* DetailOpportunityViewController.h */,
-				C7F77BAC1760FEBC00A5060B /* DetailOpportunityViewController.m */,
-				C7F77BAD1760FEBC00A5060B /* DetailOpportunityViewController.xib */,
-				C7F77BA11760FE7900A5060B /* BrowseOpportunityTableViewController.h */,
-				C7F77BA21760FE7900A5060B /* BrowseOpportunityTableViewController.m */,
-				C7F77BA31760FE7900A5060B /* BrowseOpportunityTableViewController.xib */,
-				C7F77B9C1760FE4700A5060B /* VolunteerViewController.h */,
-				C7F77B9D1760FE4700A5060B /* VolunteerViewController.m */,
-				C7F77B9E1760FE4700A5060B /* VolunteerViewController.xib */,
+				C7F77BAB1760FEBC00A5060B /* DetailMealViewController.h */,
+				C7F77BAC1760FEBC00A5060B /* DetailMealViewController.m */,
+				C7F77BAD1760FEBC00A5060B /* DetailMealViewController.xib */,
+				C7F77BA11760FE7900A5060B /* MealListTableViewController.h */,
+				C7F77BA21760FE7900A5060B /* MealListTableViewController.m */,
+				C7F77BA31760FE7900A5060B /* MealListTableViewController.xib */,
+				C7F77B9C1760FE4700A5060B /* MainViewController.h */,
+				C7F77B9D1760FE4700A5060B /* MainViewController.m */,
+				C7F77B9E1760FE4700A5060B /* MainViewController.xib */,
 				C7F77B8E1760FE2900A5060B /* AppDelegate.h */,
 				C7F77B8F1760FE2900A5060B /* AppDelegate.m */,
 				C7F77B861760FE2900A5060B /* Supporting Files */,
@@ -306,9 +306,9 @@
 				C7F77B921760FE2900A5060B /* Default.png in Resources */,
 				C7F77B941760FE2900A5060B /* Default@2x.png in Resources */,
 				C7F77B961760FE2900A5060B /* Default-568h@2x.png in Resources */,
-				C7F77BA01760FE4700A5060B /* VolunteerViewController.xib in Resources */,
-				C7F77BA51760FE7900A5060B /* BrowseOpportunityTableViewController.xib in Resources */,
-				C7F77BAF1760FEBC00A5060B /* DetailOpportunityViewController.xib in Resources */,
+				C7F77BA01760FE4700A5060B /* MainViewController.xib in Resources */,
+				C7F77BA51760FE7900A5060B /* MealListTableViewController.xib in Resources */,
+				C7F77BAF1760FEBC00A5060B /* DetailMealViewController.xib in Resources */,
 				C7D86D4B1767BC5000AFAD3E /* UserSignInViewController.xib in Resources */,
 				C7F05276176F9D51001974A8 /* InterestsTableViewController.xib in Resources */,
 				C7F0527E176FC704001974A8 /* AboutViewController.xib in Resources */,
@@ -336,9 +336,9 @@
 			files = (
 				C7F77B8C1760FE2900A5060B /* main.m in Sources */,
 				C7F77B901760FE2900A5060B /* AppDelegate.m in Sources */,
-				C7F77B9F1760FE4700A5060B /* VolunteerViewController.m in Sources */,
-				C7F77BA41760FE7900A5060B /* BrowseOpportunityTableViewController.m in Sources */,
-				C7F77BAE1760FEBC00A5060B /* DetailOpportunityViewController.m in Sources */,
+				C7F77B9F1760FE4700A5060B /* MainViewController.m in Sources */,
+				C7F77BA41760FE7900A5060B /* MealListTableViewController.m in Sources */,
+				C7F77BAE1760FEBC00A5060B /* DetailMealViewController.m in Sources */,
 				C7D86D4A1767BC5000AFAD3E /* UserSignInViewController.m in Sources */,
 				C7F05275176F9D51001974A8 /* InterestsTableViewController.m in Sources */,
 				C7F0527D176FC704001974A8 /* AboutViewController.m in Sources */,

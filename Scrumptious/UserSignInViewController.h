@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import "InterestsTableViewController.h"
-#import "BrowseOpportunityTableViewController.h"
+#import "MealListTableViewController.h"
 
 @interface UserSignInViewController : UIViewController <UITextFieldDelegate>
 

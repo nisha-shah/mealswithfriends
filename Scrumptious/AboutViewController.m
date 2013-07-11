@@ -7,11 +7,12 @@
 //
 
 #import "AboutViewController.h"
-#import "VolunteerViewController.h"
+#import "MainViewController.h"
+#import "MealListTableViewController.h"
 
 @interface AboutViewController ()
 @property(strong,nonatomic)VolunteerViewController *volunteerVC;
-@property(strong,nonatomic)BrowseOpportunityTableViewController *browseOpportunityVC;
+@property(strong,nonatomic)MealListTableViewController *browseOpportunityVC;
 
 //- (IBAction)btnProceedClicked:(id)sender;
 @end
@@ -51,7 +52,7 @@
 
 - (void)btnProceedClicked:(id)sender {
    // self.volunteerVC=[[VolunteerViewController alloc]initWithNibName:@"VolunteerViewController" bundle:nil];
-    self.browseOpportunityVC=[[BrowseOpportunityTableViewController alloc]initWithNibName:@"BrowseOpportunityTableViewController" bundle:nil];
+    self.browseOpportunityVC=[[MealListTableViewController alloc]initWithNibName:@"MealListTableViewController" bundle:nil];
     [self.navigationController pushViewController:self.browseOpportunityVC animated:YES];
 }
 @end
